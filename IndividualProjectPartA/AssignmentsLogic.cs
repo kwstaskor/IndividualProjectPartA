@@ -18,7 +18,7 @@ namespace IndividualProjectPartA
                 counter = Convert.ToInt32(Console.ReadLine());
             }
         }
-        public static void CourseSelection(Assignment assignment)
+        private static void CourseSelection(Assignment assignment)
         {
             Console.Clear();
             Console.WriteLine("\n\t\t\tChoose Course/Courses\n\n\tType Course Number to Assign and PRESS Enter or PRESS Enter without typing a number to exit\n");
@@ -51,7 +51,7 @@ namespace IndividualProjectPartA
                 CourseSelection(selectedAssignment);
             }
         }
-        public static void StudentSelection(Assignment assignment)
+        private static void StudentSelection(Assignment assignment)
         {
             Console.Clear();
             Console.WriteLine("\n\t\t\tChoose Student/Students\n\n\tType Students Number to Assign and PRESS Enter or PRESS Enter without typing a number to exit\n");

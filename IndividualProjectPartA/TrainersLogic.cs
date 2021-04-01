@@ -18,7 +18,7 @@ namespace IndividualProjectPartA
                 counter = Convert.ToInt32(Console.ReadLine());
             }
         }
-        public static void CourseSelection(Trainer trainer)
+        private static void CourseSelection(Trainer trainer)
         {
             Console.Clear();
             Console.WriteLine("\n\t\t\t\t----Choose Course/Courses----\n\n\tType Course Number to Assign and PRESS Enter or PRESS Enter without typing a number to exit\n");

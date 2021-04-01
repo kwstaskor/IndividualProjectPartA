@@ -38,7 +38,7 @@ namespace IndividualProjectPartA
                 ShowAllTrainersPerCourse(course);
             }
         }
-        public static void ShowAllTrainersPerCourse(Course course)
+        private static void ShowAllTrainersPerCourse(Course course)
         {
             Console.Clear();
             foreach (var trainer in course.trainersPerCourse)
@@ -60,7 +60,7 @@ namespace IndividualProjectPartA
                 ShowAllStudentsPerCourse(course);
             }
         }
-        public static void ShowAllStudentsPerCourse(Course course)
+        private static void ShowAllStudentsPerCourse(Course course)
         {
             Console.Clear();
             foreach (var student in course.studentsPerCourse)
@@ -82,7 +82,7 @@ namespace IndividualProjectPartA
                 ShowAllAssignmentsPerCourse(course);
             }
         }
-        public static void ShowAllAssignmentsPerCourse(Course course)
+        private static void ShowAllAssignmentsPerCourse(Course course)
         {
             Console.Clear();
             foreach (var assignmet in course.assignmentsPerCourse)

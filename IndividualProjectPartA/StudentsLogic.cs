@@ -27,7 +27,7 @@ namespace IndividualProjectPartA
                 Console.WriteLine($"{allStudentsList.IndexOf(student)+1}) {student}");
             }
         }
-        public static void CourseSelection(Student student)
+        private static void CourseSelection(Student student)
         {
             Console.Clear();
             Console.WriteLine("\n\t\t\tChoose Course/Courses\n\n\tType Course Number to Assign and PRESS Enter or PRESS Enter without typing a number to exit\n");
@@ -87,7 +87,7 @@ namespace IndividualProjectPartA
                 ShowAllAssignmentsPerStudent(student);
             }
         }
-        public static void ShowAllAssignmentsPerStudent(Student student)
+        private static void ShowAllAssignmentsPerStudent(Student student)
         {
             Console.Clear();
             foreach (var assignment in student.assignmentsPerStudent)
@@ -97,7 +97,7 @@ namespace IndividualProjectPartA
             Console.Write("\n\nPress Enter key to return to View Menu.");
             Console.ReadLine();
         }
-        public static void AssignmentsSubmissionsCheck(Student student, DateTime date)
+        private static void AssignmentsSubmissionsCheck(Student student, DateTime date)
         {
             foreach (var assignment in student.assignmentsPerStudent)
             {
